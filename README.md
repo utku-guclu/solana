@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+# Solana Dashboard Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Solana Dashboard Explorer is a React-based web application that provides real-time insights into the Solana blockchain and cryptocurrency market. It features a user-friendly interface for viewing wallet information, requesting airdrops, and displaying various blockchain statistics and cryptocurrency data.
 
-In the project directory, you can run:
+[Demo](https://youtu.be/EEBiAJKVjHU)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Real-time Solana wallet balance display
+- Airdrop request functionality for testnet
+- Visualization of wallet balance history
+- Display of top cryptocurrencies and their current prices
+- Bitcoin network statistics
+- Responsive design for desktop and mobile devices
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- TypeScript
+- Material-UI
+- Recharts for data visualization
+- Solana Web3.js
+- Solana Wallet Adapter
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Before you begin, ensure you have met the following requirements:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+git clone https://github.com/your-username/solana-dashboard-explorer.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navigate to the project directory:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd solana-dashboard-explorer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Install the dependencies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install
 
-## Learn More
+## Configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Create a `.env` file in the root directory of the project.
+2. Add the following environment variables:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+REACT_APP_SOLANA_RPC_HOST=https://api.testnet.solana.com
+
+## Running the Application
+
+To start the development server:
+
+npm start
+
+The application will be available at `http://localhost:3000`.
+
+## Building for Production
+
+To create a production build:
+
+npm run build
+
+The built files will be available in the `build` directory.
+
+## Usage
+
+1. Connect your Solana wallet using the "Connect Wallet" button in the header.
+2. View your wallet balance and address on the dashboard.
+3. Request an airdrop of SOL tokens (on testnet) using the "Request Airdrop" button.
+4. Explore the charts showing your wallet balance history and top cryptocurrency prices.
+5. View Bitcoin network statistics in the dedicated section.
+
+## Contributing
+
+Contributions to the Solana Dashboard Explorer are welcome. Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or feedback, please open an issue on the GitHub repository.
