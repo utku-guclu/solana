@@ -35,28 +35,31 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 
-git clone https://github.com/utku-guclu/solana.git
+```git clone https://github.com/utku-guclu/solana.git```
 
 2. Navigate to the project directory:
 
-cd solana
+```cd solana```
 
 3. Install the dependencies:
 
-npm install
+```npm install```
 
-## Configuration
+## Configuration (Optional)
 
 1. Create a `.env` file in the root directory of the project.
 2. Add the following environment variables:
-
+```
 REACT_APP_SOLANA_RPC_HOST=https://api.testnet.solana.com
+BABEL_ENV=development
+NODE_ENV=development
+```
 
 ## Running the Application
 
 To start the development server:
 
-npm start
+```npm start```
 
 The application will be available at `http://localhost:3000`.
 
@@ -64,7 +67,7 @@ The application will be available at `http://localhost:3000`.
 
 To create a production build:
 
-npm run build
+```npm run build```
 
 The built files will be available in the `build` directory.
 
