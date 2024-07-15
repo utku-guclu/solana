@@ -39,7 +39,7 @@ git clone https://github.com/your-username/solana-dashboard-explorer.git
 
 2. Navigate to the project directory:
 
-cd solana-dashboard-explorer
+cd solana
 
 3. Install the dependencies:
 
